@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.D Education</title>
+    <!-- Correct link to the favicon -->
+    <link rel="icon" type="icon.png" href="assets/icon.png">
+    
+    <!-- Styling inside the head -->
+    <style>
+        * {
+            margin: 15px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        /* Adding style to odd table rows */
+        tr:nth-child(odd) {
+            background-color: rgb(22, 162, 255);
+        }
+
+        /* Optional: Styling for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        /* Styles for the animated navigation bar */
+        .navbar {
+            width: 100%;
+            background-color: #ff0a0a;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 20px;
+        }
+
+        .navbar ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #000000; /* Animation color */
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .navbar ul li a:hover::before {
+            transform: scaleX(1);
+        }
+
+        .navbar ul li a:hover {
+            color: #47ddff; /* Change link color on hover */
+        }
+
+        /* Adding some padding to the body content to avoid overlap with navbar */
+        body {
+            padding-top: 50px; /* Adjust according to navbar height */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Link bar with animation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#V.D EDUCATION">Home</a></li>
+        
+        </ul>
+    </nav>
+    <br>
+<br>
+<br>
+    <!-- Table layout -->
+    <table border="100px" width="100px">
+        <tr>
+            <th>GRADE 8 SCIENCE EDUCATION WEBSITE</th>
+        </tr>
+    </table>
+<br>
+<br>
+<br>
+<br>
+<table border="15" width="40px">
+            
+        <tr>
+           <th><center><a href="111.html">8 ශ්‍රේණි විද්‍යාව පළමු පාඩම කෙටි සටහන්<a></a></center></th>
+        </tr>
+
+    </table>
+
+    <br>
+    <table border="15" width="40px">
+                
+            <tr>
+               <th><center><a href="222.html">8 ශ්‍රේණි විද්‍යාව දෙවන පාඩම කෙටි සටහන්<a></a></center></th>
+            </tr>
+    
+        </table>
+    
+        <br>
+
+    <table border="15" width="40px">
+                
+            <tr>
+               <th><center><a href="333.html">8 ශ්‍රේණි විද්‍යාව තුන්වන පාඩම කෙටි සටහන්<a></a></center></th>
+            </tr>
+    
+        </table>
+</body>
+
